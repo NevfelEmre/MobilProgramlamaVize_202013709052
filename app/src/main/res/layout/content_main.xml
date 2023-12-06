@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    android:backgroundTint="#191919"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_ogrNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="202013709052"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_Isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Nevfel Emre ÇİÇEK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_ogrNo" />
+
+    <Button
+        android:id="@+id/converterPageButton"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#19B387"
+        android:foregroundTint="#19B387"
+        android:stateListAnimator="@anim/nav_default_enter_anim"
+        android:text="Converter"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#19B387"
+        android:textColorLink="#19B387"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/randomPageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/randomPageButton"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#19B387"
+        android:stateListAnimator="@anim/nav_default_enter_anim"
+        android:text="Random"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/smsPageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/smsPageButton"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="130dp"
+        android:backgroundTint="#19B387"
+        android:stateListAnimator="@anim/nav_default_enter_anim"
+        android:text="SMS"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
