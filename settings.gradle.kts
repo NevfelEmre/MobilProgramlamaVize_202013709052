@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MobilProgramlamaVize_202013709052"
+rootProject.name = "YoutubeTutorial"
 include(":app")
+ 

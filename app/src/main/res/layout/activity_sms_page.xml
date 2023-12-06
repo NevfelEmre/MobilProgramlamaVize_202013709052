@@ -8,9 +8,9 @@
     tools:context=".SmsPage">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
-        android:layout_height="55dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="SMS"
         android:textColor="#FFFFFF"
@@ -34,11 +34,9 @@
             android:layout_width="298dp"
             android:layout_height="70dp"
             android:layout_marginBottom="38dp"
-            android:backgroundTint="#135140"
-            android:text="Send"
-            android:textAlignment="center"
+            android:backgroundTint="#14604A"
+            android:text="SEND"
             android:textAllCaps="true"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -1,22 +1,20 @@
 <resources>
-    <string name="app_name">MobilProgramlamaVize_202013709052</string>
-    <string-array name = "decimalSpinner">
+    <string name="app_name">YoutubeTutorial</string>
+    <string-array name = "decimalSpinnerValues">
         <item>Binary (2)</item>
         <item>Octal (8)</item>
         <item>Hexadecimal (16)</item>
     </string-array>
-    <string-array name = "megaByteSpinner">
+    <string-array name = "megaByteSpinnerValues">
         <item>Kilobyte</item>
         <item>Byte</item>
         <item>Kibibyte</item>
         <item>Bit</item>
     </string-array>
-    <string-array name = "celciusSpinner">
+    <string-array name = "celciusSpinnerValues">
         <item>Fahrenheit</item>
         <item>Kelvin</item>
     </string-array>
-
-
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

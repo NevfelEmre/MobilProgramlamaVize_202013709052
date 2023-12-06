@@ -8,101 +8,74 @@
     tools:context=".RandomPage">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:layout_marginTop="36dp"
         android:text="Random Generator"
-        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
         android:layout_width="355dp"
         android:layout_height="222dp"
         android:layout_marginBottom="32dp"
         android:background="#19B387"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
             android:id="@+id/adetTextArea"
-            android:layout_width="0dp"
+            android:layout_width="315dp"
             android:layout_height="48dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="20dp"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
-            android:foregroundTint="#FFFFFF"
             android:hint="Adet"
             android:inputType="number"
-            android:shadowColor="#FFFFFF"
-            android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF"
-            app:layout_constraintBottom_toTopOf="@+id/maksimumTextArea"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.068" />
-
-        <EditText
-            android:id="@+id/maksimumTextArea"
-            android:layout_width="0dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:backgroundTint="#FFFFFF"
-            android:ems="10"
-            android:foregroundTint="#FFFFFF"
-            android:hint="Maksimum"
-            android:inputType="number"
-            android:shadowColor="#FFFFFF"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textColorHighlight="#FFFFFF"
-            android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/maxTextArea"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/minimumTextArea"
-            android:layout_width="0dp"
+            android:id="@+id/minTextArea"
+            android:layout_width="315dp"
             android:layout_height="48dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
-            android:foregroundTint="#FFFFFF"
             android:hint="Minimum"
             android:inputType="number"
-            android:shadowColor="#FFFFFF"
-            android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/maksimumTextArea" />
+            app:layout_constraintTop_toBottomOf="@+id/maxTextArea" />
+
+        <EditText
+            android:id="@+id/maxTextArea"
+            android:layout_width="315dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Maksimum"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
+        android:id="@+id/constraintLayout3"
         android:layout_width="355dp"
         android:layout_height="450dp"
         android:layout_marginBottom="38dp"
@@ -114,18 +87,17 @@
         <ScrollView
             android:layout_width="353dp"
             android:layout_height="448dp"
-            android:contentDescription="@string/appbar_scrolling_view_behavior"
             android:padding="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
 
             <LinearLayout
                 android:id="@+id/scrollViewElements"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical" />
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.mobilprogramlamavize_202013709052;
+package com.example.youtubetutorial;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.mobilprogramlamavize_202013709052", appContext.getPackageName());
+        assertEquals("com.example.youtubetutorial", appContext.getPackageName());
     }
 }

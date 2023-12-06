@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mobilprogramlamavize_202013709052"
+    namespace = "com.example.youtubetutorial"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mobilprogramlamavize_202013709052"
+        applicationId = "com.example.youtubetutorial"
         minSdk = 25
         targetSdk = 33
         versionCode = 1
